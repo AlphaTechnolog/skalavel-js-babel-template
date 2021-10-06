@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "babel src -d dist",
-    "start": "npm run build && node dist/index.js",
+    "start": "node dist/index.js",
+    "build:start": "npm run build && npm run start",
     "dev": "nodemon --watch src --ext .json,.js --exec 'babel src -d dist && node dist/index.js'"
   },
   "dependencies": {
