@@ -3,8 +3,7 @@
 A simple skalavel/js/babel/nodemon template to create a scalable
 web application
 
-**NOTE**: Skalavel not have very good features **now** such as Middlewares, Views, etc
-Skalavel is in development.
+**NOTE**: Skalavel not have very good features (**now**) such as Middlewares, Views, etc. Skalavel is in development.
 
 ## Getting started
 
