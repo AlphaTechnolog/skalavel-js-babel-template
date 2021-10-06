@@ -1,0 +1,20 @@
+{
+  "name": "skalavel-js-babel-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d dist",
+    "start": "npm run build && node dist/index.js",
+    "dev": "nodemon --watch src --ext .json,.js --exec 'babel src -d dist && node dist/index.js'"
+  },
+  "dependencies": {
+    "skalavel": "^0.1.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "nodemon": "^2.0.13"
+  }
+}
